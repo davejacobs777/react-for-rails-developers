@@ -12,6 +12,11 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+    * $ rails g model Course title description
+    * $ rails g model Section title description course:belongs_to
+    * $ rails g model Episode title description url section:belongs_to
+
+
 
 * Database initialization
 
